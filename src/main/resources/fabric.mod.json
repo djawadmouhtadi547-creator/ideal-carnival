@@ -3,11 +3,12 @@
   "id": "netherendrain",
   "version": "${version}",
   "name": "Nether & End Rain",
-  "description": "Adds rain to the Nether and the End.",
+  "description": "Real rain in the Nether and the End, following the natural weather cycle and the /weather command.",
   "authors": ["You"],
   "license": "MIT",
-  "environment": "client",
+  "environment": "*",
   "entrypoints": {
+    "main": ["com.example.rain.RainMod"],
     "client": ["com.example.rain.RainClient"]
   },
   "depends": {
